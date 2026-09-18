@@ -29,7 +29,7 @@
 - **ModMaker Runtimeが未導入の方** → `ExtraCharactersMOD-x.x.x-withRuntime.zip`（ModMaker Runtime同梱版）
 - **すでにModMaker Runtimeを導入済みの方** → `ExtraCharactersMOD-x.x.x.zip`（Runtime非同梱版）
 
-※ すでにRuntimeを導入している環境にFull版を入れると、ファイルが重複・競合する可能性があります。導入済みの方は必ずLite版をお使いください。
+※ すでにRuntimeを導入している環境にFull版を入れると、ファイルが重複・競合する可能性があります。導入済みの方は必ず非同梱版をお使いください。
 
 ### 導入手順
 
