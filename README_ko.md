@@ -12,17 +12,17 @@
 
 현재 다음 3명의 캐릭터가 추가되어 있습니다.
 
-### ![코스튬 미리보기](images/Mymelody.png) 마이멜로디
+### ![코스튬 미리보기](images/Mymelody/Mymelody.png) 마이멜로디
 
-![코스튬 설명](images/MymelodyEx-ko.png)
+![코스튬 설명](images/Mymelody/MymelodyEx-ko.png)
 
-### ![코스튬 미리보기](images/Sans.png) 샌즈
+### ![코스튬 미리보기](images/Sans/Sans.png) 샌즈
 
-![코스튬 설명](images/SansEx-ko.png)
+![코스튬 설명](images/Sans/SansEx-ko.png)
 
-### ![코스튬 미리보기](images/Dummy.png) 더미짱
+### ![코스튬 미리보기](images/Dummy/Dummy.png) 더미짱
 
-![코스튬 설명](images/DummyEx-ko.png)
+![코스튬 설명](images/Dummy/DummyEx-ko.png)
 
 ## 설치 방법
 
