@@ -57,6 +57,13 @@
 이 AddOn은 Xetsumei님이 개발하신 **Sephiria-ModMaker**를 이용하여 제작되었습니다.
 훌륭한 툴을 공개해 주신 Xetsumei님께 진심으로 감사드립니다!
 
+## 피드백
+
+버그 제보나 개선 사항, 또는 새로운 코스튬에 대한 제안이 있다면 언제든지 편하게 알려주세요!
+
+* **GitHub Issue**: [여기](../../issues)에서 제보해 주세요.
+* **Discord DM**: `a_o_b`
+
 ## 라이선스
 
 이 AddOn의 코드 및 설정 파일은 [MIT License](LICENSE)에 따라 공개됩니다.
