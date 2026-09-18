@@ -1,57 +1,62 @@
 # Sephiria-ExtraCharacters
 
-セフィリア用の新しいコスチュームをいくつか追加するMODです。
-**今後のアップデートでさらに多くのコスチュームが追加される予定です**。
+A mod that adds several new costumes for Sephiria.
+**More costumes are planned to be added in future updates.**
 
-## 特徴
+## Features
 
-- セフィリアに新規コスチュームを追加
-- 追加されるコスチュームは、それぞれ独自の新しい効果やアーティファクトを所持しています
+* Adds new costumes to Sephiria
+* Each added costume comes with its own unique effects and artifacts
 
-## 追加キャラクター
+## Added Characters
 
-現在、以下の3キャラクターが追加されています。
+The following 3 characters are currently available.
 
-### ![コスチューム見本](images/Mymelody.png) マイメロディ
-![コスチューム説明](images/MymelodyEx-jp.png)
+### ![Costume Preview](images/Mymelody.png) My Melody
 
-### ![コスチューム見本](images/Sans.png) サンズ
-![コスチューム説明](images/SansEx-jp.png)
+![Costume Description](images/MymelodyEx-en.png)
 
-### ![コスチューム見本](images/Dummy.png) ダミーちゃん
-![コスチューム説明](images/DummyEx-jp.png)
+### ![Costume Preview](images/Sans.png) Sans
 
-## 導入方法
-### ダウンロードするファイルについて
+![Costume Description](images/SansEx-en.png)
 
-このMODは2種類のzipファイルを配布しています。お使いの環境に合わせてどちらか一方をダウンロードしてください。
+### ![Costume Preview](images/Dummy.png) Dummy-chan
 
-- **ModMaker Runtimeが未導入の方** → `ExtraCharactersMOD-x.x.x-withRuntime.zip`（ModMaker Runtime同梱版）
-- **すでにModMaker Runtimeを導入済みの方** → `ExtraCharactersMOD-x.x.x.zip`（Runtime非同梱版）
+![Costume Description](images/DummyEx-en.png)
 
-※ すでにRuntimeを導入している環境にFull版を入れると、ファイルが重複・競合する可能性があります。導入済みの方は必ず非同梱版をお使いください。
+## Installation
 
-### 導入手順
+### Which File Should You Download?
 
-1. 本リポジトリの [Releases](../../releases) から、上記を参考に該当するzipファイルをダウンロード
-2. zipを解凍
-3. その中の `AddOns` フォルダを、`Sephiria.exe` と同じ階層に配置してください
-   - すでに `AddOns` フォルダが存在する場合は、**上書き・統合**してください（フォルダごと置き換えるとほかのAddOnが消える可能性があるので、中身だけコピーするのがおすすめです）
-4. ゲームを起動し、新しいコスチュームが追加されていることを確認してください
+This mod is distributed as two different ZIP files. Please download the one that matches your environment.
 
-## 注意事項
+* **If you do not have ModMaker Runtime installed** → `ExtraCharactersMOD-x.x.x-withRuntime.zip` (includes ModMaker Runtime)
+* **If you already have ModMaker Runtime installed** → `ExtraCharactersMOD-x.x.x.zip` (does not include Runtime)
 
-- 本AddOnは新しいコスチュームを追加するものとなっており、既存のコスチュームや通常のゲームプレイに影響を及ぼすものは一切ございません。(例えば、新しいコスチュームには新しいアーティファクトを付与するものがありますが、それらのアーティファクトは通常プレイ時の報酬やショップでは出現しません)
-- 本AddOnには `Sephiria` 本体のアセット・データは一切含まれていません。ゲーム本体は各自で正規に入手してください。
-- 本AddOnは [Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker/tree/main) を利用して作成されています。ModMaker自体の利用規約・ライセンスに従ってご利用ください。
-- 導入は自己責任でお願いします
+※ Installing the Full version on an environment where Runtime is already installed may cause file duplication or conflicts. If you already have Runtime installed, be sure to use the version without Runtime.
 
-## 謝辞
+### Installation Steps
 
-本AddOnはXetsumeiさんが開発された**Sephiria-ModMaker**を利用して作成されています。
-素晴らしいツールを公開してくださったXetsumeiさんに、心より感謝申し上げます！
+1. Download the appropriate ZIP file from [Releases](../../releases) according to the instructions above.
+2. Extract the ZIP file.
+3. Place the `AddOns` folder inside the extracted files at the same level as `Sephiria.exe`.
 
-## ライセンス
+   * If an `AddOns` folder already exists, **merge/overwrite its contents**. Do not replace the entire folder, as this may delete other AddOns. We recommend copying only the contents of the folder.
+4. Launch the game and check that the new costumes have been added.
 
-本AddOnのコード・設定ファイルは [MIT License](LICENSE) のもとで公開しています。
-利用の際は本ライセンスの範囲内でお願いします。
+## Notes
+
+* This AddOn only adds new costumes and does not affect existing costumes or normal gameplay in any way. (For example, some new costumes grant new artifacts, but these artifacts will not appear as rewards or in shops during normal gameplay.)
+* This AddOn does not contain any assets or data from the `Sephiria` game itself. Please obtain the game legally on your own.
+* This AddOn was created using [Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker/tree/main). Please use it in accordance with the terms of use and license of ModMaker itself.
+* Use this AddOn at your own risk.
+
+## Acknowledgements
+
+This AddOn was created using **Sephiria-ModMaker**, developed by Xetsumei.
+Many thanks to Xetsumei for creating and sharing such an excellent tool!
+
+## License
+
+The code and configuration files of this AddOn are released under the [MIT License](LICENSE).
+Please use them within the scope permitted by this license.
