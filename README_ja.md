@@ -1,3 +1,5 @@
+![タイトル](images/title.png)
+
 # Sephiria-ExtraCharacters
 
 セフィリア用の新しいコスチュームをいくつか追加するMODです。
