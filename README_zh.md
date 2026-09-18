@@ -12,17 +12,17 @@
 
 目前已添加以下3名角色。
 
-### ![服装预览](images/Mymelody.png) 美乐蒂
+### ![服装预览](images/Mymelody/Mymelody.png) 美乐蒂
 
-![服装说明](images/MymelodyEx-zh.png)
+![服装说明](images/Mymelody/MymelodyEx-zh.png)
 
-### ![服装预览](images/Sans.png) Sans
+### ![服装预览](images/Sans/Sans.png) Sans
 
-![服装说明](images/SansEx-zh.png)
+![服装说明](images/Sans/SansEx-zh.png)
 
-### ![服装预览](images/Dummy.png) Dummy酱
+### ![服装预览](images/Dummy/Dummy.png) Dummy酱
 
-![服装说明](images/DummyEx-zh.png)
+![服装说明](images/Dummy/DummyEx-zh.png)
 
 ## 安装方法
 
