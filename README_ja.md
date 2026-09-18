@@ -1,4 +1,4 @@
-**日本語** | [English](README.en.md) | [한국어](README.ko.md) | [中文](README.zh.md)
+**日本語** | [English](README_en.md) | [한국어](README_ko.md) | [中文](README_zh.md)
 # Sephiria-ExtraCharacters
 
 セフィリア用の新しいコスチュームをいくつか追加するMODです。
