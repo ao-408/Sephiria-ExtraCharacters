@@ -1,4 +1,4 @@
-[日本語](README.ja.md) | **English** | [한국어](README.ko.md) | [中文](README.zh.md)
+[日本語](README_ja.md) | **English** | [한국어](README_ko.md) | [中文](README_zh.md)
 # Sephiria-ExtraCharacters
 
 A mod that adds several new costumes for Sephiria.
