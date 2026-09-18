@@ -57,6 +57,13 @@
 本AddOn使用了由Xetsumei开发的**Sephiria-ModMaker**制作。
 衷心感谢Xetsumei公开并提供了如此优秀的工具！
 
+## 反馈
+
+如果你发现了Bug、有改进建议，或者想推荐新的服装，欢迎随时联系我们！
+
+* **GitHub Issue**：请通过[这里](../../issues)提交反馈
+* **Discord DM**：`a_o_b`
+
 ## 许可证
 
 本AddOn的代码及配置文件以 [MIT License](LICENSE) 许可证公开。
