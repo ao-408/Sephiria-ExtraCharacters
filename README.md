@@ -57,6 +57,13 @@ This mod is distributed as two different ZIP files. Please download the one that
 This AddOn was created using **Sephiria-ModMaker**, developed by Xetsumei.
 Many thanks to Xetsumei for creating and sharing such an excellent tool!
 
+## Feedback
+
+If you have any bug reports, suggestions for improvements, or ideas for new costumes, we'd love to hear from you!
+
+* **GitHub Issue**: Please report them [here](../../issues)
+* **Discord DM**: `a_o_b`
+
 ## License
 
 The code and configuration files of this AddOn are released under the [MIT License](LICENSE).
