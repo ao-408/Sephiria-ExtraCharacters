@@ -12,17 +12,17 @@ A mod that adds several new costumes for Sephiria.
 
 The following 3 characters are currently available.
 
-### ![Costume Preview](images/Mymelody.png) My Melody
+### ![Costume Preview](images/Mymelody/Mymelody.png) My Melody
 
-![Costume Description](images/MymelodyEx-en.png)
+![Costume Description](images/Mymelody/MymelodyEx-en.png)
 
-### ![Costume Preview](images/Sans.png) Sans
+### ![Costume Preview](images/Sans/Sans.png) Sans
 
-![Costume Description](images/SansEx-en.png)
+![Costume Description](images/Sans/SansEx-en.png)
 
-### ![Costume Preview](images/Dummy.png) Dummy-chan
+### ![Costume Preview](images/Dummy/Dummy.png) Dummy-chan
 
-![Costume Description](images/DummyEx-en.png)
+![Costume Description](images/Dummy/DummyEx-en.png)
 
 ## Installation
 
