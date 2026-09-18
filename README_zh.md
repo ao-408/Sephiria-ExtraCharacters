@@ -1,3 +1,4 @@
+[日本語](README_ja.md) | [English](README_en.md) | [한국어](README_ko.md) | **中文**
 # Sephiria-ExtraCharacters
 
 这是一个为塞菲莉娅添加多种新服装的MOD。
