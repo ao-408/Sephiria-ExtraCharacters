@@ -1,3 +1,4 @@
+[日本語](README_ja.md) | [English](README_en.md) | **한국어** | [中文](README_zh.md)
 # Sephiria-ExtraCharacters
 
 세피리아에 새로운 코스튬을 여러 가지 추가하는 모드입니다.
