@@ -50,6 +50,8 @@ This mod is distributed as two different ZIP files. Please download the one that
 * This AddOn only adds new costumes and does not affect existing costumes or normal gameplay in any way. (For example, some new costumes grant new artifacts, but these artifacts will not appear as rewards or in shops during normal gameplay.)
 * This AddOn does not contain any assets or data from the `Sephiria` game itself. Please obtain the game legally on your own.
 * This AddOn was created using [Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker/tree/main). Please use it in accordance with the terms of use and license of ModMaker itself.
+* **In multiplayer, all players must have the same MOD installed.** Playing with only some players having the MOD installed is not supported.
+* If you want to temporarily disable the MOD, press `Esc` in-game and turn the MOD OFF from the ModMaker information screen.
 * Use this AddOn at your own risk.
 
 ## Acknowledgements
@@ -63,6 +65,12 @@ If you have any bug reports, suggestions for improvements, or ideas for new cost
 
 * **GitHub Issue**: Please report them [here](../../issues)
 * **Discord DM**: `a_o_b`
+
+## Balance Adjustments
+
+New costumes are balanced with the goal of keeping them roughly on par with the existing costumes.
+
+If you feel that a costume is too strong or too weak, please share your feedback through an [Issue](../../issues) or on Discord. Your feedback will be taken into consideration when adjusting the values.
 
 ## License
 
