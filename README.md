@@ -1,4 +1,4 @@
-# Sephiria Costume AddOn
+# Sephiria-ExtraCharacters
 
 セフィリア用の新しいコスチュームをいくつか追加するMODです。
 **今後のアップデートでさらに多くのコスチュームが追加される予定です**。
