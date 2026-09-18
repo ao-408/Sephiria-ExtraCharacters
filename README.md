@@ -12,10 +12,10 @@
 
 現在、以下の3キャラクターが追加されています。
 
-### ![コスチューム見本](images/MyMelody.png) マイメロディ
+### ![コスチューム見本](images/Mymelody.png) マイメロディ
 ![コスチューム説明](images/MymelodyEx-jp.png)
 
-### ![コスチューム見本](images/sans.png) サンズ
+### ![コスチューム見本](images/Sans.png) サンズ
 ![コスチューム説明](images/SansEx-jp.png)
 
 ### ![コスチューム見本](images/Dummy.png) ダミーちゃん
