@@ -21,7 +21,7 @@
 
 ![服装说明](images/Sans/SansEx-zh.png)
 
-### ![服装预览](images/Dummy/Dummy.png) Dummy酱
+### ![服装预览](images/Dummy/Dummy.png) 假人酱
 
 ![服装说明](images/Dummy/DummyEx-zh.png)
 
