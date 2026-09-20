@@ -1,3 +1,5 @@
+[日本語](patchlog_jp.md) | [English](patchlog_en.md) | **한국어** | [中文](patchlog_zh.md)
+
 # 패치노트
 
 ## v1.0.0
