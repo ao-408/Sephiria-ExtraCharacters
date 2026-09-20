@@ -1,4 +1,4 @@
-[日本語](patchlog_jp.md) | **English** | [한국어](patchlog_ko.md) | [中文](patchlog_zh.md)
+[日本語](patchlog_ja.md) | **English** | [한국어](patchlog_ko.md) | [中文](patchlog_zh.md)
 
 # Patch Notes
 
