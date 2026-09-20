@@ -4,6 +4,8 @@
 A mod that adds several new costumes for Sephiria.
 **More costumes are planned to be added in future updates.**
 
+**For detailed costume stats and past patch history, please check the [Patchlog](Patchlog_en.md)!**
+
 ## Features
 
 * Adds new costumes to Sephiria
