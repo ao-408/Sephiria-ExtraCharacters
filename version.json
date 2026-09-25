@@ -1,8 +1,9 @@
 {
   "version": "1.0.0",
-  "url": "https://github.com/ao-408/Sephiria-ExtraCharacters/releases",
-  "note_ja": "日本語",
-  "note_en": "English",
+  "url_github": "https://github.com/ao-408/Sephiria-ExtraCharacters/releases",
+  "url_nexus": "https://www.nexusmods.com/sephiria/mods/36?tab=description",
+  "note_ja": "",
+  "note_en": "",
   "note_ko": "",
   "note_zh": "",
   "note_zh_hant": ""
