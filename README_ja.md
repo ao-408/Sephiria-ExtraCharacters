@@ -13,16 +13,16 @@
 
 ## 追加キャラクター
 
-現在、以下の3キャラクターが追加されています。
+現在、以下の4キャラクターが追加されています。
+各キャラのステータスの詳細は、ゲーム内又は[パッチログ](https://github.com/ao-408/Sephiria-ExtraCharacters/blob/main/patchlog_ja.md)をご確認ください！
 
 ### ![コスチューム見本](images/Mymelody/Mymelody.png) マイメロディ
-![コスチューム説明](images/Mymelody/MymelodyEx-ja.png)
 
 ### ![コスチューム見本](images/Sans/Sans.png) サンズ
-![コスチューム説明](images/Sans/SansEx-ja.png)
+
+### ![コスチューム見本](images/Kirby/Kirby.png) カービィ
 
 ### ![コスチューム見本](images/Dummy/Dummy.png) ダミーちゃん
-![コスチューム説明](images/Dummy/DummyEx-ja.png)
 
 ## 導入方法
 ### ダウンロードするファイルについて
@@ -30,9 +30,11 @@
 このMODは2種類のzipファイルを配布しています。お使いの環境に合わせてどちらか一方をダウンロードしてください。
 
 - **ModMaker Runtimeが未導入の方** → `ExtraCharactersMOD-x.x.x-withRuntime.zip`（ModMaker Runtime同梱版）
+  最新版のRuntimeが同梱されているため、追加でRuntimeを用意する必要はありません。
 - **すでにModMaker Runtimeを導入済みの方** → `ExtraCharactersMOD-x.x.x.zip`（Runtime非同梱版）
+  **本AddOnのバージョンによっては、ModMaker Runtime自体のアップデートが必要な場合があります。** お使いのRuntimeが古いままだと、AddOnが正しく動作しない可能性があります。その場合はRuntime同梱版（`-withRuntime.zip`）を導入するか、Runtimeを最新版に更新してください。
 
-※ すでにRuntimeを導入している環境にFull版を入れると、ファイルが重複・競合する可能性があります。導入済みの方は必ず非同梱版をお使いください。
+※ **本AddOnのバージョンによっては、ModMaker Runtime自体のアップデートが必要な場合があります。** お使いのRuntimeが古いままだと、AddOnが正しく動作しない可能性があります。その場合はRuntime同梱版（`-withRuntime.zip`）を導入するか、Runtimeを最新版に更新してください。
 
 ### 導入手順
 
@@ -45,6 +47,7 @@
 ## 注意事項
 
 - 本AddOnは新しいコスチュームを追加するものとなっており、既存のコスチュームや通常のゲームプレイに影響を及ぼすものは一切ございません。(例えば、新しいコスチュームには新しいアーティファクトを付与するものがありますが、それらのアーティファクトは通常プレイ時の報酬やショップでは出現しません)
+- **本AddOnには、一部のアーティファクトの挙動を実現するためのカスタムスクリプト（C#で記述されたコード）が含まれています。** これらはModMaker Runtimeを通じて読み込まれます。
 - 本AddOnには `Sephiria` 本体のアセット・データは一切含まれていません。ゲーム本体は各自で正規に入手してください。
 - 本AddOnは [Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker/tree/main) を利用して作成されています。ModMaker自体の利用規約・ライセンスに従ってご利用ください。
 - **マルチプレイ時は、参加者全員が同じMODを導入している必要があります。** 一部のプレイヤーのみ導入している状態でのプレイは想定していません。

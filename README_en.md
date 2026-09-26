@@ -13,19 +13,16 @@ A mod that adds several new costumes for Sephiria.
 
 ## Added Characters
 
-The following 3 characters are currently available.
+The following 4 characters are currently available.
+For detailed stats on each character, please check in-game or the [Patchlog](https://github.com/ao-408/Sephiria-ExtraCharacters/blob/main/patchlog_en.md)!
 
 ### ![Costume Preview](images/Mymelody/Mymelody.png) My Melody
 
-![Costume Description](images/Mymelody/MymelodyEx-en.png)
-
 ### ![Costume Preview](images/Sans/Sans.png) Sans
 
-![Costume Description](images/Sans/SansEx-en.png)
+### ![Costume Preview](images/Kirby/Kirby.png) Kirby
 
 ### ![Costume Preview](images/Dummy/Dummy.png) Dummy-chan
-
-![Costume Description](images/Dummy/DummyEx-en.png)
 
 ## Installation
 
@@ -34,9 +31,9 @@ The following 3 characters are currently available.
 This mod is distributed as two different ZIP files. Please download the one that matches your environment.
 
 * **If you do not have ModMaker Runtime installed** → `ExtraCharactersMOD-x.x.x-withRuntime.zip` (includes ModMaker Runtime)
+  This ZIP includes the latest version of Runtime, so no extra setup is needed.
 * **If you already have ModMaker Runtime installed** → `ExtraCharactersMOD-x.x.x.zip` (does not include Runtime)
-
-※ Installing the Full version on an environment where Runtime is already installed may cause file duplication or conflicts. If you already have Runtime installed, be sure to use the version without Runtime.
+  **Some versions of this AddOn may require an update to ModMaker Runtime itself.** If your Runtime is outdated, the AddOn may not work correctly. In that case, please install the version that includes Runtime (`-withRuntime.zip`), or update your Runtime to the latest version.
 
 ### Installation Steps
 
@@ -50,6 +47,7 @@ This mod is distributed as two different ZIP files. Please download the one that
 ## Notes
 
 * This AddOn only adds new costumes and does not affect existing costumes or normal gameplay in any way. (For example, some new costumes grant new artifacts, but these artifacts will not appear as rewards or in shops during normal gameplay.)
+* **This AddOn includes custom scripts (C# code) to implement the behavior of some artifacts.** These are loaded through ModMaker Runtime.
 * This AddOn does not contain any assets or data from the `Sephiria` game itself. Please obtain the game legally on your own.
 * This AddOn was created using [Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker/tree/main). Please use it in accordance with the terms of use and license of ModMaker itself.
 * **In multiplayer, all players must have the same MOD installed.** Playing with only some players having the MOD installed is not supported.
@@ -67,6 +65,8 @@ If you have any bug reports, suggestions for improvements, or ideas for new cost
 
 * **GitHub Issue**: Please report them [here](../../issues)
 * **Discord DM**: `a_o_b`
+
+We read every piece of feedback we receive. Thank you!
 
 ## Balance Adjustments
 

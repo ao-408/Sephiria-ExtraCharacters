@@ -13,19 +13,16 @@
 
 ## 추가 캐릭터
 
-현재 다음 3명의 캐릭터가 추가되어 있습니다.
+현재 다음 4명의 캐릭터가 추가되어 있습니다.
+각 캐릭터의 상세 스탯은 게임 내 또는 [패치로그](https://github.com/ao-408/Sephiria-ExtraCharacters/blob/main/patchlog_ko.md)에서 확인해 주세요!
 
 ### ![코스튬 미리보기](images/Mymelody/Mymelody.png) 마이멜로디
 
-![코스튬 설명](images/Mymelody/MymelodyEx-ko.png)
-
 ### ![코스튬 미리보기](images/Sans/Sans.png) 샌즈
 
-![코스튬 설명](images/Sans/SansEx-ko.png)
+### ![코스튬 미리보기](images/Kirby/Kirby.png) 커비
 
 ### ![코스튬 미리보기](images/Dummy/Dummy.png) 더미짱
-
-![코스튬 설명](images/Dummy/DummyEx-ko.png)
 
 ## 설치 방법
 
@@ -34,9 +31,9 @@
 이 모드는 2종류의 ZIP 파일로 배포됩니다. 사용 중인 환경에 맞는 파일 하나를 다운로드해 주세요.
 
 * **ModMaker Runtime이 설치되어 있지 않은 경우** → `ExtraCharactersMOD-x.x.x-withRuntime.zip` (ModMaker Runtime 포함)
+  이 ZIP에는 최신 버전의 Runtime이 포함되어 있으므로 별도의 작업이 필요하지 않습니다.
 * **이미 ModMaker Runtime을 설치한 경우** → `ExtraCharactersMOD-x.x.x.zip` (Runtime 미포함)
-
-※ Runtime이 이미 설치된 환경에 Full 버전을 설치하면 파일이 중복되거나 충돌할 수 있습니다. 이미 Runtime이 설치되어 있다면 반드시 Runtime 미포함 버전을 사용해 주세요.
+  **본 AddOn의 버전에 따라 ModMaker Runtime 자체의 업데이트가 필요할 수 있습니다.** 사용 중인 Runtime이 오래된 경우 AddOn이 정상적으로 작동하지 않을 수 있습니다. 이 경우 Runtime 포함 버전(`-withRuntime.zip`)을 설치하거나, Runtime을 최신 버전으로 업데이트해 주세요.
 
 ### 설치 순서
 
@@ -50,6 +47,7 @@
 ## 주의사항
 
 * 이 AddOn은 새로운 코스튬만 추가하며, 기존 코스튬이나 일반적인 게임 플레이에는 어떠한 영향도 주지 않습니다. (예를 들어 새로운 코스튬 중 일부는 새로운 아티팩트를 부여하지만, 해당 아티팩트는 일반 플레이 중 보상이나 상점에서 등장하지 않습니다.)
+* **이 AddOn에는 일부 아티팩트의 동작을 구현하기 위한 커스텀 스크립트(C#으로 작성된 코드)가 포함되어 있습니다.** 이는 ModMaker Runtime을 통해 로드됩니다.
 * 이 AddOn에는 `Sephiria` 본편의 에셋이나 데이터가 일절 포함되어 있지 않습니다. 게임 본편은 각자 정식으로 구매하여 이용해 주세요.
 * 이 AddOn은 [Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker/tree/main)를 이용하여 제작되었습니다. ModMaker 자체의 이용 약관 및 라이선스를 준수하여 사용해 주세요.
 * **멀티플레이에서는 모든 참가자가 동일한 MOD를 설치해야 합니다.** 일부 플레이어만 MOD를 설치한 상태에서의 플레이는 지원하지 않습니다.
@@ -67,6 +65,8 @@
 
 * **GitHub Issue**: [여기](../../issues)에서 제보해 주세요.
 * **Discord DM**: `a_o_b`
+
+보내주시는 모든 의견을 확인하고 있습니다. 감사합니다!
 
 ## 밸런스 조정
 

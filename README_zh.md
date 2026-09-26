@@ -13,19 +13,16 @@
 
 ## 新增角色
 
-目前已添加以下3名角色。
+目前已添加以下4名角色。
+各角色的详细数值请在游戏内或[更新日志](https://github.com/ao-408/Sephiria-ExtraCharacters/blob/main/patchlog_zh.md)中查看！
 
 ### ![服装预览](images/Mymelody/Mymelody.png) 美乐蒂
 
-![服装说明](images/Mymelody/MymelodyEx-zh.png)
-
 ### ![服装预览](images/Sans/Sans.png) Sans
 
-![服装说明](images/Sans/SansEx-zh.png)
+### ![服装预览](images/Kirby/Kirby.png) 卡比
 
 ### ![服装预览](images/Dummy/Dummy.png) 假人酱
-
-![服装说明](images/Dummy/DummyEx-zh.png)
 
 ## 安装方法
 
@@ -34,9 +31,9 @@
 本MOD提供两种ZIP文件，请根据你的环境选择其中一种下载。
 
 * **尚未安装ModMaker Runtime** → `ExtraCharactersMOD-x.x.x-withRuntime.zip`（包含ModMaker Runtime）
+  该压缩包中包含最新版本的Runtime，无需额外操作。
 * **已经安装ModMaker Runtime** → `ExtraCharactersMOD-x.x.x.zip`（不包含Runtime）
-
-※ 如果在已经安装Runtime的环境中安装Full版本，可能会导致文件重复或冲突。已经安装Runtime的用户请务必使用不包含Runtime的版本。
+  **根据本AddOn的版本不同，可能需要更新ModMaker Runtime本身。** 如果你使用的Runtime版本过旧，AddOn可能无法正常运行。此时请安装包含Runtime的版本（`-withRuntime.zip`），或将Runtime更新到最新版本。
 
 ### 安装步骤
 
@@ -50,6 +47,7 @@
 ## 注意事项
 
 * 本AddOn仅用于添加新的服装，不会对现有服装或正常游戏流程造成任何影响。（例如，部分新服装会赋予新的神器，但这些神器不会在正常游戏中的奖励或商店中出现。）
+* **本AddOn包含用于实现部分神器行为的自定义脚本（以C#编写的代码）。** 这些脚本通过ModMaker Runtime加载。
 * 本AddOn不包含任何 `Sephiria` 游戏本体的资源或数据。请自行合法获取游戏本体。
 * 本AddOn使用 [Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker/tree/main) 制作。使用时请遵守ModMaker本身的使用条款及许可证。
 * **多人游戏时，所有参与者都必须安装相同的 MOD。** 不支持仅部分玩家安装 MOD 的情况下进行游戏。
@@ -67,6 +65,8 @@
 
 * **GitHub Issue**：请通过[这里](../../issues)提交反馈
 * **Discord DM**：`a_o_b`
+
+我们会认真查看每一条反馈，谢谢！
 
 ## 平衡性调整
 
