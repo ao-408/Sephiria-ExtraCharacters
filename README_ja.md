@@ -22,9 +22,9 @@
 
 ### ![コスチューム見本](images/Kirby/Kirby.png) カービィ
 
-### ![コスチューム見本](images/Dummy/Dummy.png) ダミーちゃん
+### ![コスチューム見本](images/TomNook/TomNook.png) たぬきち 🆕 **NEW!**
 
-### ![コスチューム見本](images/TomNook/TomNook.png) たぬきち
+### ![コスチューム見本](images/Dummy/Dummy.png) ダミーちゃん
 
 ## 導入方法
 ### ダウンロードするファイルについて

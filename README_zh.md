@@ -22,9 +22,9 @@
 
 ### ![服装预览](images/Kirby/Kirby.png) 卡比
 
-### ![服装预览](images/Dummy/Dummy.png) 假人酱
+### ![服装预览](images/TomNook/TomNook.png) 狸克 🆕 **NEW!**
 
-### ![服装预览](images/TomNook/TomNook.png) 狸克
+### ![服装预览](images/Dummy/Dummy.png) 假人酱
 
 ## 安装方法
 

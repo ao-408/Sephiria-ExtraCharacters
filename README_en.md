@@ -22,9 +22,9 @@ For detailed stats on each character, please check in-game or the [Patchlog](htt
 
 ### ![Costume Preview](images/Kirby/Kirby.png) Kirby
 
-### ![Costume Preview](images/Dummy/Dummy.png) Dummy-chan
+### ![Costume Preview](images/TomNook/TomNook.png) Tom Nook 🆕 **NEW!**
 
-### ![Costume Preview](images/TomNook/TomNook.png) Tom Nook
+### ![Costume Preview](images/Dummy/Dummy.png) Dummy-chan
 
 ## Installation
 

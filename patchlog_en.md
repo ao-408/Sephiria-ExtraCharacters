@@ -2,8 +2,93 @@
 
 # Patch Notes
 
+## v1.2.0
+
+Added a new costume, Tom Nook, along with adjustments to existing costumes.
+
+### New Character
+
+#### 1. Tom Nook (New)
+
+**Stats**: Leaf Drop +50000%
+
+**Starting Item**: Tent
+
+The shrewd tanuki businessman, Tom Nook, joins the battle!
+
+He's a master at gathering Leaf — his Leaf Drop is increased by a whopping +50000%!
+You'd think that makes him filthy rich... but it's not that simple.
+
+He starts the game with his exclusive artifact, "Tent".
+While holding this artifact, **all Leaf spending is multiplied by 500**! (This applies to shop buy prices and similar costs — sell prices are unchanged.)
+On top of that, **your bag is fixed at 2×2, and your sub-bag and potion slots are fixed at 1 each**. Tent life is cramped.
+
+But don't worry!
+Once the Leaf you own reaches the expansion cost, the loan is paid automatically and your home gets **expanded**.
+Each expansion gives you more bag, sub-bag, and potion slots, boosts the Leaf you pick up, and even comes with a reward!
+
+| Artifact | Bag | Sub-bag | Potions | Leaf Picked Up | Next Expansion Cost | Expansion Reward |
+|---|---|---|---|---|---|---|
+| Tent | 2×2 | 1 | 1 | ×1 | 98,000 | Restorative Potion ×1 |
+| My Home (Stage 1) | 3×3 | 2 | 2 | ×1.22 | 198,000 | Large Restorative Potion ×1 |
+| My Home (Stage 2) | 4×4 | 3 | 3 | ×1.54 | 348,000 | Dice ×2 |
+| My Home (Stage 3) | 5×5 | 4 | 4 | ×1.90 | 548,000 | Random Common Stone Tablet ×1 |
+| My Home (Stage 4) | 6×6 | 5 | 5 | ×2.15 | 758,000 | Random Advanced Stone Tablet ×1 |
+| My Home (Stage 5) | 7×7 | 6 | 6 | ×3.00 | 1,248,000 | Random Rare Stone Tablet ×1 |
+| My Home (Stage 6) | 8×8 | 7 | 7 | ×5.20 | 2,498,000 | A special effect |
+| My Home (Stage 7) | 9×9 | 8 | 8 | ×6 | — | — |
+
+Expand all the way and pay off the loan to unlock the special effect of "My Home (Stage 7)".
+**Right-click** My Home in your bag to pay Leaf and receive **the same reward choice you get on level up**!
+The first use costs 1,000,000 Leaf, and the cost rises by 1,000,000 with each use.
+
+Note that this artifact **cannot be disabled**. Even at a negative level or on a disabling slot, its effects keep going. There's no escaping the loan.
+
+He also comes with his own attack motion right from the start!
+
+### Balance Adjustments
+
+#### 1. My Melody (Adjustment)
+
+**Stat Change**: Curse of Healing +70% → +60%
+
+**Artifact "Cute Notes"**:
+- Melody Buff duration 2s → 1.5s
+
+We've eased her Curse of Healing a little, making it easier to recover HP.
+In exchange, Melody Buff now runs out sooner, so keeping your stacks up takes a bit more attacking than before.
+
+#### 2. Sans (Buff)
+
+**Artifact "Just Ketchup"**:
+- All elemental damage -14 → -12
+- Added: on a successful evasion, become invincible for 0.5s and restore 10% MP
+- Added: immunity to fall damage
+
+We've softened the elemental damage penalty to give his damage a small boost.
+
+On top of that, a successful evasion now makes him briefly invincible and restores some MP!
+The more you dodge, the better things get — just the way he likes to fight.
+
+Also, with only 1 HP, simply falling into the abyss meant an instant game over for him.
+To prevent these accidental deaths, he no longer takes fall damage.
+
+#### 3. Kirby (Nerf)
+
+**Stat Change**: Negotiation -60 → -80
+
+**Artifact "Copy Star"**:
+- Added flavor text
+
+Copy Star turned out to be extremely powerful, so we've lowered his Negotiation even further to balance things out.
+Shopping is now harder than ever for him, but the Copy ability itself is unchanged.
+
+### Other
+
+- **Updated ModMaker Runtime to v2.5.35**: To match this version, ModMaker Runtime has been updated to v2.5.35. If your Runtime is older than v2.5.35, the mod may not work correctly. In that case, please download and install the version that includes Runtime (`-withRuntime.zip`).
+- **About multiplayer**: Tom Nook has not been tested when used by a non-host player in multiplayer. If you run into any issues, a report would be greatly appreciated.
+
 ## v1.1.0
----
 
 Added a new costume, Kirby, along with adjustments to existing costumes and a new feature.
 
@@ -28,7 +113,7 @@ Copy Star copies the ability of the artifact placed below it!
 Some artifacts won't do anything useful when copied, but most will still trigger their effect.
 For example, you can double up Captain Mole, or cast an extra grimoire with the Watering Can!
 
-### Character Adjustments
+### Balance Adjustments
 
 #### 1. My Melody (Rework)
 
@@ -65,7 +150,6 @@ Playing as her was just too difficult, so we've made a small adjustment.
 - **Updated ModMaker Runtime to v2.5.32**: To match this version, ModMaker Runtime has been updated to v2.5.32. If your Runtime is not v2.5.32, the mod may not work correctly. In that case, please download and install the version that includes Runtime (`-withRuntime.zip`).
 
 ## v1.0.0
----
 
 New costumes added! The following 3 new costumes have been added.
 
