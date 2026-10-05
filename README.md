@@ -13,7 +13,7 @@ A mod that adds several new costumes for Sephiria.
 
 ## Added Characters
 
-The following 4 characters are currently available.
+The following 5 characters are currently available.
 For detailed stats on each character, please check in-game or the [Patchlog](https://github.com/ao-408/Sephiria-ExtraCharacters/blob/main/patchlog_en.md)!
 
 ### ![Costume Preview](images/Mymelody/Mymelody.png) My Melody
@@ -23,6 +23,8 @@ For detailed stats on each character, please check in-game or the [Patchlog](htt
 ### ![Costume Preview](images/Kirby/Kirby.png) Kirby
 
 ### ![Costume Preview](images/Dummy/Dummy.png) Dummy-chan
+
+### ![Costume Preview](images/TomNook/TomNook.png) Tom Nook
 
 ## Installation
 
@@ -51,6 +53,7 @@ This mod is distributed as two different ZIP files. Please download the one that
 * This AddOn does not contain any assets or data from the `Sephiria` game itself. Please obtain the game legally on your own.
 * This AddOn was created using [Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker/tree/main). Please use it in accordance with the terms of use and license of ModMaker itself.
 * **In multiplayer, all players must have the same MOD installed.** Playing with only some players having the MOD installed is not supported.
+* **"Tom Nook" is a special costume: its exclusive artifact "Tent / My Home" changes the number of bag, sub-bag, and potion slots, as well as how much Leaf you spend and gain.** These effects only apply to the player holding the artifact. Behavior when a non-host player uses it in multiplayer has not been tested yet. If you run into any issues, a report would be greatly appreciated.
 * If you want to temporarily disable the MOD, press `Esc` in-game and turn the MOD OFF from the ModMaker information screen.
 * Use this AddOn at your own risk.
 

@@ -13,7 +13,7 @@
 
 ## 新增角色
 
-目前已添加以下4名角色。
+目前已添加以下5名角色。
 各角色的详细数值请在游戏内或[更新日志](https://github.com/ao-408/Sephiria-ExtraCharacters/blob/main/patchlog_zh.md)中查看！
 
 ### ![服装预览](images/Mymelody/Mymelody.png) 美乐蒂
@@ -23,6 +23,8 @@
 ### ![服装预览](images/Kirby/Kirby.png) 卡比
 
 ### ![服装预览](images/Dummy/Dummy.png) 假人酱
+
+### ![服装预览](images/TomNook/TomNook.png) 狸克
 
 ## 安装方法
 
@@ -51,6 +53,7 @@
 * 本AddOn不包含任何 `Sephiria` 游戏本体的资源或数据。请自行合法获取游戏本体。
 * 本AddOn使用 [Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker/tree/main) 制作。使用时请遵守ModMaker本身的使用条款及许可证。
 * **多人游戏时，所有参与者都必须安装相同的 MOD。** 不支持仅部分玩家安装 MOD 的情况下进行游戏。
+* **“狸克”是一套特殊的服装：其专属神器“帐篷／我的家”会改变背包、副背包和药水栏的格数，以及叶子的消耗量和获得量。** 这些效果只对持有该神器的玩家生效。多人游戏中由非房主玩家使用时的表现尚未经过测试。如果发现问题，欢迎反馈。
 * 如果想暂时禁用 MOD，请在游戏中按下 `Esc` 键，然后在 ModMaker 的信息界面中将该 MOD 关闭（OFF）。
 * 使用本AddOn所产生的一切风险由用户自行承担。
 
