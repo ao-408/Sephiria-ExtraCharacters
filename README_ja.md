@@ -1,82 +1,63 @@
 **日本語** | [English](README_en.md) | [한국어](README_ko.md) | [中文](README_zh.md)
+
 # Sephiria-ExtraCharacters
 
-セフィリア用の新しいコスチュームをいくつか追加するMODです。
-**今後のアップデートでさらに多くのコスチュームが追加される予定です**。
+**v2.0.0から、MOD本体の配布は[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3843151213)のみになりました。**
 
-**各コスチュームの詳しい性能や、過去のパッチ内容についてはこちらの[パッチログ](Patchlog_ja.md)からご確認ください！**
+セフィリアに、独自の効果や専用アーティファクトを持つ**6体のコスチューム**と、**2種類の武器**を追加するMODです。
+今後も、すべてのアニメーションを完成させてから新しいコスチュームを追加していきます！
 
-## 特徴
-
-- セフィリアに新規コスチュームを追加
-- 追加されるコスチュームは、それぞれ独自の新しい効果やアーティファクトを所持しています
+名前・説明・専用UIは、日本語・英語・韓国語・中国語に対応しています。詳しい性能や仕様変更、不具合修正は[パッチログ](patchlog_ja.md)をご確認ください。
 
 ## 追加キャラクター
 
-現在、以下の5キャラクターが追加されています。
-各キャラのステータスの詳細は、ゲーム内又は[パッチログ](https://github.com/ao-408/Sephiria-ExtraCharacters/blob/main/patchlog_ja.md)をご確認ください！
+### ![マイメロディ](images/Mymelody/Mymelody.png) マイメロディ
+### ![カービィ](images/Kirby/Kirby.png) カービィ
+### ![たぬきち](images/TomNook/TomNook.png) たぬきち
+### ![サンズ](images/Sans/Sans.png) サンズ
+### ![クルーメイト](images/Crewmate/Crewmate.png) クルーメイト 🆕
+### ![ダミーちゃん](images/Dummy/Dummy.png) ダミーちゃん
 
-### ![コスチューム見本](images/Mymelody/Mymelody.png) マイメロディ
+キャラクター選択画面の **Extra Characters →** から、本MODのキャラクター一覧を開けます。
 
-### ![コスチューム見本](images/Sans/Sans.png) サンズ
+## 追加武器
 
-### ![コスチューム見本](images/Kirby/Kirby.png) カービィ
-
-### ![コスチューム見本](images/TomNook/TomNook.png) たぬきち 🆕 **NEW!**
-
-### ![コスチューム見本](images/Dummy/Dummy.png) ダミーちゃん
+### ![ポッキー](images/Pocky/Pocky.png) ポッキー
+### ![バスターソード](images/BusterSword/BusterSword.png) バスターソード
 
 ## 導入方法
-### ダウンロードするファイルについて
 
-このMODは2種類のzipファイルを配布しています。お使いの環境に合わせてどちらか一方をダウンロードしてください。
+**v2.0.0からModMaker Runtime不要の独立版になりました。MOD本体はSteam Workshopで配布します。**
 
-- **ModMaker Runtimeが未導入の方** → `ExtraCharactersMOD-x.x.x-withRuntime.zip`（ModMaker Runtime同梱版）
-  最新版のRuntimeが同梱されているため、追加でRuntimeを用意する必要はありません。
-- **すでにModMaker Runtimeを導入済みの方** → `ExtraCharactersMOD-x.x.x.zip`（Runtime非同梱版）
-  **本AddOnのバージョンによっては、ModMaker Runtime自体のアップデートが必要な場合があります。** お使いのRuntimeが古いままだと、AddOnが正しく動作しない可能性があります。その場合はRuntime同梱版（`-withRuntime.zip`）を導入するか、Runtimeを最新版に更新してください。
+1. Steam Workshopで本MODのページを開き、**サブスクライブ**します。
+2. ダウンロード後、ゲーム内のWorkshop画面で本MODを有効にします。
+3. ゲームを再起動し、キャラクター選択画面の **Extra Characters →** から追加キャラクターを確認します。
 
-※ **本AddOnのバージョンによっては、ModMaker Runtime自体のアップデートが必要な場合があります。** お使いのRuntimeが古いままだと、AddOnが正しく動作しない可能性があります。その場合はRuntime同梱版（`-withRuntime.zip`）を導入するか、Runtimeを最新版に更新してください。
+### 旧版から更新する場合
 
-### 導入手順
+更新前にセーブデータをバックアップし、**旧ModMaker版のExtraCharactersMODを無効にしてから**Workshop版を有効にしてください。他のAddOnに必要なModMaker Runtimeは残して構いません。
 
-1. 本リポジトリの [Releases](../../releases) から、上記を参考に該当するzipファイルをダウンロード
-2. zipを解凍
-3. その中の `AddOns` フォルダを、`Sephiria.exe` と同じ階層に配置してください
-   - すでに `AddOns` フォルダが存在する場合は、**上書き・統合**してください（フォルダごと置き換えるとほかのAddOnが消える可能性があるので、中身だけコピーするのがおすすめです）
-4. ゲームを起動し、新しいコスチュームが追加されていることを確認してください
+開発版を `WorkshopLocal` に導入していた場合も、その版を無効にしてWorkshop版へ切り替えてください。`WorkshopLocal`版を有効にした状態ではマルチプレイを利用できません。
 
 ## 注意事項
 
-- 本AddOnは新しいコスチュームを追加するものとなっており、既存のコスチュームや通常のゲームプレイに影響を及ぼすものは一切ございません。(例えば、新しいコスチュームには新しいアーティファクトを付与するものがありますが、それらのアーティファクトは通常プレイ時の報酬やショップでは出現しません)
-- **本AddOnには、一部のアーティファクトの挙動を実現するためのカスタムスクリプト（C#で記述されたコード）が含まれています。** これらはModMaker Runtimeを通じて読み込まれます。
-- 本AddOnには `Sephiria` 本体のアセット・データは一切含まれていません。ゲーム本体は各自で正規に入手してください。
-- 本AddOnは [Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker/tree/main) を利用して作成されています。ModMaker自体の利用規約・ライセンスに従ってご利用ください。
-- **マルチプレイ時は、参加者全員が同じMODを導入している必要があります。** 一部のプレイヤーのみ導入している状態でのプレイは想定していません。
-- **「たぬきち」は、専用アーティファクト「テント／マイホーム」によって、バッグ・サブバッグ・ポーションの枠数や、リーフの消費量・獲得量が変わる特殊なコスチュームです。** これらの効果は、このアーティファクトを持っているプレイヤーにだけ働きます。マルチプレイでホスト以外のプレイヤーが使用した場合の動作は未検証です。不具合を見つけた際はご報告いただけると助かります。
-- MODを一時的に無効化したい場合は、ゲーム内で `Esc` キーを押し、ModMakerの情報画面からMODをOFFにしてください。
-- 導入は自己責任でお願いします
+- **マルチプレイでは、全員が同じバージョンの本MODを導入・有効化してください。**
+- 一時的に無効にする場合は、ゲームのMOD管理画面を使用してください。
+- ゲーム本体は別途必要です。
 
 ## 謝辞
 
-本AddOnはXetsumeiさんが開発された**Sephiria-ModMaker**を利用して作成されています。
-素晴らしいツールを公開してくださったXetsumeiさんに、心より感謝申し上げます！
+本MODは、Xetsumeiさんの **[Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker)** を使って制作を始めました。素晴らしいツールを公開してくださったことに、心より感謝します！
 
-## フィードバック
+## フィードバック・バランス調整
 
-バグ報告や改善提案（新しいコスチュームのご提案も大歓迎です！）がありましたら、以下のいずれかでお気軽にご連絡ください。
+不具合、強すぎる・弱すぎると感じた点、新しいコスチュームの案など、お気軽にお寄せください！
 
-- **GitHub Issue**：[こちら](../../issues) からご報告ください
-- **Discord DM**：`a_o_b`
+- [GitHub Issues](https://github.com/ao-408/Sephiria-ExtraCharacters/issues)
+- Discord DM：`a_o_b`
 
-いただいたご意見はすべて確認しています。よろしくお願いします！
-
-## バランス調整について
-
-新規コスチュームは、既存コスチュームとなるべく同程度の強さになることを目標に調整しています。
-強すぎる・弱すぎると感じた場合は、ぜひ [Issue](../../issues) やDiscordでご意見をお聞かせください。数値調整の参考にさせていただきます。
+不具合をご報告いただく際は、ゲームとMODのバージョン、再現手順、マルチプレイではホスト／ゲストのどちらかを添えていただけると助かります。
 
 ## ライセンス
 
-本AddOnのコード・設定ファイルは [MIT License](LICENSE) のもとで公開しています。
-利用の際は本ライセンスの範囲内でお願いします。
+本MODのコード・設定ファイルは [MIT License](LICENSE) のもとで公開しています。

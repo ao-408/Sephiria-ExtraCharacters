@@ -2,6 +2,136 @@
 
 # Patch Notes
 
+**From v2.0.0 onward, the mod itself is available exclusively on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3843151213).** Nexus Mods and GitHub provide information and update news.
+
+## v2.0.0
+
+Crewmate joins the tower!
+This update also adds our first weapons: **Pocky and Buster Sword**, alongside new animations and balance changes.
+
+**This is now a standalone mod requiring no ModMaker Runtime, with the mod itself distributed through Steam Workshop.** Read the [installation instructions](README_en.md#installation) before updating.
+
+### New Character
+
+#### 1. Crewmate
+
+**Stats**: Attack Speed +20% / Damage dealt outside meetings −60%
+
+**Starting Item**: Emergency Meeting Button / 緊急会議ボタン
+
+Ditching his spaceship tasks, Crewmate has arrived at the tower!
+
+Press the button for a **10-second Emergency Meeting**. Participants are invincible! ...But violence is frowned upon, so ordinary damage dealt during meetings is reduced by 99%.
+
+Each hit on an enemy adds one vote, with no vote cap. When voting ends, **the single enemy with the most votes is ejected**. A tie means no ejection.
+
+An **Impostor** hides among the enemies, secretly attacking them. Once only Impostors remain, they reveal themselves and go wild!
+
+- **Eject an Impostor and you're a hero!** The remaining enemies also take damage based on its vote count. Outside boss and miniboss encounters, the button's cooldown is reduced by 80%.
+- **Eject an innocent enemy and...** all participants are stunned for 3.5 seconds.
+- **Bosses and minibosses** survive ejection with at least 1 HP. Instead, they take damage based on votes, and the cooldown is reduced by 50%.
+
+Ejection damage scales with your highest elemental damage and artifact damage bonuses.
+A **team-wide 9-second wait** follows the meeting, preventing players from taking turns to keep meetings going.
+The button also cannot be used within two slots of the bag's edge. Ship buttons belong in the middle!
+
+His ordinary damage is modest, but **voting and ejection damage are exempt from the outside-meeting −60% penalty**.
+Why fight with fists when you can fight with meetings?
+
+In multiplayer, players holding an Emergency Meeting Button join the same meeting.
+
+### New Weapons
+
+#### 1. Pocky
+
+**How to obtain**: Enhance “Divine Iron Staff” at an anvil (tier-3 staff).
+
+The snack has finally become a weapon!
+
+- **Your special attack is Eat!** Finish the remaining Pocky to restore HP and gain Attack Speed and Basic Attack Damage. Longer Pocky gives bigger bonuses: a full stick restores 3.5% of Max HP and grants +25% Attack Speed and +20% Basic Attack Damage for 8 seconds.
+- Every 12 successful basic or dash attacks, it gets shorter: full → 3/4 → 1/2 → 1/4 → empty. Range decreases with length. When empty without an active eating buff, Basic Attack Damage is reduced by 30%.
+- Melee range at 100% / 75% / 50% / 25% / 0% length is **+35% / +18% / 0% / −18% / −35%**, respectively.
+- When empty, a fresh stick is taken from your stock if available.
+
+Restock with a **Pocky Box箱**, sold by merchants: **34 sticks for a fixed 220 Leaf**, unaffected by Negotiation. Only Pocky owners can buy one.
+
+Enhancing into Pocky grants **one box** as a gift. Obtaining or enhancing it in training does too.
+The box has its own opening animation. Even Pocky fans don't eat the packaging!
+
+#### 2. Buster Sword
+
+**How to obtain**: Enhance “Hypersensitivity” at an anvil (tier-3 greatsword).
+
+A big sword deserves a big moment! Build the Limit Gauge through attacks and damage taken, then unleash four different techniques.
+
+- Every 100 gauge is one level, up to four levels. Hits generate damage dealt ×0.1, capped at 25 per hit.
+- **Hold the special attack to charge at 45 per second.** You cannot move while charging, but it works outside combat.
+- With at least one level, **tap the special attack to use the technique for your current level**. It spends the entire gauge and grants invincibility while active.
+
+| Level | Technique | Effect |
+|---|---|---|
+| 1 | Cross-Slash | Close in for three slashes, stunning on the final hit. |
+| 2 | Blade Beam | Fire a forward shockwave that also damages enemies around its impact. |
+| 3 | Finishing Touch | Lift nearby enemies in a tornado, then launch them away. |
+| 4 | Omnislash | Teleport through 15 slashes, followed by an area finisher. All hits are critical! |
+
+The gauge appears beside the Mana Gauge and also below your character when it changes.
+See each technique's in-game tooltip for detailed effects and damage.
+
+Melee attack range is increased by 15%.
+
+### Animations and Controls
+
+- Added dedicated attack animations for Sans and Dummy-chan and corrected some unnatural motion.
+- **Every costume now has all of its animations!** Future costumes will also be completed before release.
+- Added **Extra Characters →** to character selection to open the mod's character list. With a mod character selected, selection starts on the mod page.
+
+### Balance Adjustments
+
+#### ![1. Sans (Adjustment━)](images/balance/headings/en/01.png)
+
+**Starting Item**: Removed Broken Sapphire.
+
+**Previously omitted change**: Dash invincibility bonus +0.2s → +0.3s.
+
+We forgot to document the added Sapphire and changed invincibility bonus last time. Sorry!
+The powerful starting artifact is going away, but the +0.3s bonus stays.
+
+#### ![2. Kirby (Nerf▼)](images/balance/headings/en/02.png)
+
+**Stats**: Fruit Skewer cap bonus +8 → +6 / Added bag slots −3.
+
+Still a big eater, but now packing takes a little more thought!
+
+**Ability Star**
+
+- While copying, Ability Star hides its own base description and displays the source artifact's effects.
+- Copied effects use Ability Star's own level, capped at the copied ability's maximum. The source artifact's level does not determine their strength.
+- **Placement conditions and weapon restrictions are copied too**, and checked at Ability Star's position and equipment.
+- Positional abilities, such as Compass of Breakthrough and Giant Telescope, work from **both the original artifact's position and Ability Star's position**.
+- Hovering over Ability Star highlights the artifact below it with a pink frame.
+
+#### ![3. Dummy-chan (Buff▲)](images/balance/headings/en/03.png)
+
+**Stats**: Added Defense +20.
+
+Despite how difficult she is to play, her stat bonuses were not particularly strong compared with other characters.
+To give her a distinct identity as someone who can take a hit, we have added a Defense bonus.
+
+### Bug Fixes
+
+- **Ability Star**: Fixed level labels left behind after moving, stale maximum levels after removing or replacing the source.
+- **Ability Star**: Fixed missing minus signs and bullets in copied effect descriptions.
+- **Ability Star**: Fixed refresh and cleanup of positional effects. Moving the copy preserves the original artifact's effects.
+- **Ability Star**: Reduced processing overhead by removing per-frame effect-text generation and additional full-inventory recalculations.
+- **Character selection and presets**: Fixed added characters disappearing or appearing as “?” in presets.
+- **Translations**: Fixed other descriptions failing to appear when only a name was translated.
+
+- **Just Ketchup**: Fixed successful evasion failing to grant 0.5s invincibility and restore 10% MP.
+- **Tent / My Home**: Fixed guest expansion displays, some Leaf-cost facilities working with insufficient funds, and purchasing bag expansions.
+- **Descriptions**: Corrected mismatches and missing details, including Melody Buff's duration.
+- **Update notifications**: Fixed issues such as repeated notices.
+
 ## v1.2.0
 
 Added a new costume, Tom Nook, along with adjustments to existing costumes.
@@ -48,7 +178,7 @@ He also comes with his own attack motion right from the start!
 
 ### Balance Adjustments
 
-#### 1. My Melody (Adjustment)
+#### ![1. My Melody (Adjustment━)](images/balance/headings/en/04.png)
 
 **Stat Change**: Curse of Healing +70% → +60%
 
@@ -58,7 +188,7 @@ He also comes with his own attack motion right from the start!
 We've eased her Curse of Healing a little, making it easier to recover HP.
 In exchange, Melody Buff now runs out sooner, so keeping your stacks up takes a bit more attacking than before.
 
-#### 2. Sans (Buff)
+#### ![2. Sans (Buff▲)](images/balance/headings/en/05.png)
 
 **Artifact "Just Ketchup"**:
 - All elemental damage -14 → -12
@@ -73,14 +203,14 @@ The more you dodge, the better things get — just the way he likes to fight.
 Also, with only 1 HP, simply falling into the abyss meant an instant game over for him.
 To prevent these accidental deaths, he no longer takes fall damage.
 
-#### 3. Kirby (Nerf)
+#### ![3. Kirby (Nerf▼)](images/balance/headings/en/06.png)
 
 **Stat Change**: Negotiation -60 → -80
 
-**Artifact "Copy Star"**:
+**Artifact "Ability Star"**:
 - Added flavor text
 
-Copy Star turned out to be extremely powerful, so we've lowered his Negotiation even further to balance things out.
+Ability Star turned out to be extremely powerful, so we've lowered his Negotiation even further to balance things out.
 Shopping is now harder than ever for him, but the Copy ability itself is unchanged.
 
 ### Other
@@ -98,7 +228,7 @@ Added a new costume, Kirby, along with adjustments to existing costumes and a ne
 
 **Stats**: Max Fruit Skewers +8 / Negotiation -60
 
-**Starting Item**: Copy Star
+**Starting Item**: Ability Star
 
 The Pink Demon himself, Kirby, joins the battle!
 
@@ -106,16 +236,16 @@ Being quite the big eater, he wants to eat plenty of fruit too — so his max Fr
 
 However, he's not great at talking (or, well, can he even talk?), so his Negotiation stat takes a big hit... oh well.
 
-He also starts the game with a powerful artifact, "Copy Star"!
+He also starts the game with a powerful artifact, "Ability Star"!
 This artifact recreates his signature ability — Copy!
 
-Copy Star copies the ability of the artifact placed below it!
+Ability Star copies the ability of the artifact placed below it!
 Some artifacts won't do anything useful when copied, but most will still trigger their effect.
 For example, you can double up Captain Mole, or cast an extra grimoire with the Watering Can!
 
 ### Balance Adjustments
 
-#### 1. My Melody (Rework)
+#### ![1. My Melody (Rework━)](images/balance/headings/en/07.png)
 
 **Stat Change**: Added Curse of Healing +70%
 
@@ -137,7 +267,7 @@ Previously added characters didn't have their own attack motions, but this time 
 
 Stay tuned for attack motions for the other existing characters in future patches.
 
-#### 2. Dummy-chan (Buff)
+#### ![2. Dummy-chan (Buff▲)](images/balance/headings/en/08.png)
 
 **Stat Change**: Dash Recovery Speed +150% → +220%
 
@@ -171,7 +301,7 @@ However, as the price for wielding such a powerful artifact, her Critical Chance
 ### 2. Sans
 
 **Stats**: HP fixed at 1 / Toughness -9999999 / Evasion +100 / Invincibility bonus during dash +0.2s
-**Starting Items**: Thunder's Judgment / Just Ketchup
+**Starting Items**: Judgment of Thunder / Just Ketchup
 
 Sans, the skeleton who loves jokes and ketchup, joins the battle!
 
@@ -184,7 +314,7 @@ Any defense beyond the fixed value is converted into Evasion.
 
 He also gains bonus Evasion and extra invincibility time during dashes — this is meant to reflect his signature ability to dodge attacks flawlessly (22 times, if you know, you know).
 
-Just like in the original, he starts the game already having his special move, Thunder's Judgment, ready to use!
+Just like in the original, he starts the game already having his special move, Judgment of Thunder, ready to use!
 "I've always thought — why doesn't anybody start with their special attack?"
 
 As for why his Toughness is -9999999... if you know how his story ends, no further explanation needed.

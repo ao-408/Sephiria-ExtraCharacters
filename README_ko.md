@@ -1,83 +1,63 @@
 [日本語](README_ja.md) | [English](README_en.md) | **한국어** | [中文](README_zh.md)
+
 # Sephiria-ExtraCharacters
 
-세피리아에 새로운 코스튬을 여러 가지 추가하는 모드입니다.
-**향후 업데이트를 통해 더 많은 코스튬이 추가될 예정입니다.**
+**v2.0.0부터 MOD 본체는 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3843151213)에서만 배포합니다.**
 
-**각 코스튬의 상세 성능과 이전 패치 내역은 [패치로그](Patchlog_ko.md)에서 확인해 주세요!**
+세피리아에 고유 효과와 전용 아티팩트를 가진 **코스튬 6종**과 **무기 2종**을 추가하는 모드입니다.
+앞으로도 모든 애니메이션을 완성한 후 새 코스튬을 추가할 예정입니다!
 
-## 특징
-
-* 세피리아에 새로운 코스튬 추가
-* 추가되는 각 코스튬은 고유한 효과와 아티팩트를 가지고 있습니다.
+이름·설명·전용 UI는 일본어·영어·한국어·중국어를 지원합니다. 자세한 성능, 동작 변경 및 수정 사항은 [패치노트](patchlog_ko.md)를 확인해 주세요.
 
 ## 추가 캐릭터
 
-현재 다음 5명의 캐릭터가 추가되어 있습니다.
-각 캐릭터의 상세 스탯은 게임 내 또는 [패치로그](https://github.com/ao-408/Sephiria-ExtraCharacters/blob/main/patchlog_ko.md)에서 확인해 주세요!
+### ![마이멜로디](images/Mymelody/Mymelody.png) 마이멜로디
+### ![커비](images/Kirby/Kirby.png) 커비
+### ![너굴](images/TomNook/TomNook.png) 너굴
+### ![샌즈](images/Sans/Sans.png) 샌즈
+### ![크루원](images/Crewmate/Crewmate.png) 크루원 🆕
+### ![더미짱](images/Dummy/Dummy.png) 더미짱
 
-### ![코스튬 미리보기](images/Mymelody/Mymelody.png) 마이멜로디
+캐릭터 선택 화면의 **Extra Characters →**에서 MOD 캐릭터 목록을 엽니다.
 
-### ![코스튬 미리보기](images/Sans/Sans.png) 샌즈
+## 추가 무기
 
-### ![코스튬 미리보기](images/Kirby/Kirby.png) 커비
-
-### ![코스튬 미리보기](images/TomNook/TomNook.png) 너굴 🆕 **NEW!**
-
-### ![코스튬 미리보기](images/Dummy/Dummy.png) 더미짱
+### ![포키](images/Pocky/Pocky.png) 포키
+### ![버스터 소드](images/BusterSword/BusterSword.png) 버스터 소드
 
 ## 설치 방법
 
-### 다운로드할 파일
+**v2.0.0부터 ModMaker Runtime이 필요 없는 독립판이며, MOD 본체는 Steam Workshop에서 배포합니다.**
 
-이 모드는 2종류의 ZIP 파일로 배포됩니다. 사용 중인 환경에 맞는 파일 하나를 다운로드해 주세요.
+1. 이 MOD의 Steam Workshop 페이지에서 **구독**합니다.
+2. 다운로드 후 게임의 Workshop 화면에서 MOD를 활성화합니다.
+3. 게임을 재시작한 뒤 캐릭터 선택 화면의 **Extra Characters →**에서 확인합니다.
 
-* **ModMaker Runtime이 설치되어 있지 않은 경우** → `ExtraCharactersMOD-x.x.x-withRuntime.zip` (ModMaker Runtime 포함)
-  이 ZIP에는 최신 버전의 Runtime이 포함되어 있으므로 별도의 작업이 필요하지 않습니다.
-* **이미 ModMaker Runtime을 설치한 경우** → `ExtraCharactersMOD-x.x.x.zip` (Runtime 미포함)
-  **본 AddOn의 버전에 따라 ModMaker Runtime 자체의 업데이트가 필요할 수 있습니다.** 사용 중인 Runtime이 오래된 경우 AddOn이 정상적으로 작동하지 않을 수 있습니다. 이 경우 Runtime 포함 버전(`-withRuntime.zip`)을 설치하거나, Runtime을 최신 버전으로 업데이트해 주세요.
+### 구 버전에서 업데이트
 
-### 설치 순서
+세이브를 백업하고 **ModMaker의 구 ExtraCharactersMOD를 끈 뒤 Workshop판을 켜 주세요.** 다른 AddOn에 필요한 ModMaker Runtime은 남겨 두어도 됩니다.
 
-1. 위 내용을 참고하여 [Releases](../../releases)에서 해당하는 ZIP 파일을 다운로드합니다.
-2. ZIP 파일의 압축을 풉니다.
-3. 압축을 푼 파일 안의 `AddOns` 폴더를 `Sephiria.exe`와 같은 위치에 배치합니다.
-
-   * 이미 `AddOns` 폴더가 존재하는 경우에는 **덮어쓰기/병합**해 주세요. 폴더 자체를 교체하면 다른 AddOn이 삭제될 수 있으므로, 폴더 안의 내용물만 복사하는 것을 권장합니다.
-4. 게임을 실행하고 새로운 코스튬이 추가되었는지 확인합니다.
+개발판을 `WorkshopLocal`에 설치했다면 그 판도 끄고 구독판으로 전환해 주세요. `WorkshopLocal` MOD가 활성화되어 있으면 멀티플레이를 이용할 수 없습니다.
 
 ## 주의사항
 
-* 이 AddOn은 새로운 코스튬만 추가하며, 기존 코스튬이나 일반적인 게임 플레이에는 어떠한 영향도 주지 않습니다. (예를 들어 새로운 코스튬 중 일부는 새로운 아티팩트를 부여하지만, 해당 아티팩트는 일반 플레이 중 보상이나 상점에서 등장하지 않습니다.)
-* **이 AddOn에는 일부 아티팩트의 동작을 구현하기 위한 커스텀 스크립트(C#으로 작성된 코드)가 포함되어 있습니다.** 이는 ModMaker Runtime을 통해 로드됩니다.
-* 이 AddOn에는 `Sephiria` 본편의 에셋이나 데이터가 일절 포함되어 있지 않습니다. 게임 본편은 각자 정식으로 구매하여 이용해 주세요.
-* 이 AddOn은 [Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker/tree/main)를 이용하여 제작되었습니다. ModMaker 자체의 이용 약관 및 라이선스를 준수하여 사용해 주세요.
-* **멀티플레이에서는 모든 참가자가 동일한 MOD를 설치해야 합니다.** 일부 플레이어만 MOD를 설치한 상태에서의 플레이는 지원하지 않습니다.
-* **'너굴'은 전용 아티팩트 '텐트 / 마이홈'에 의해 가방·보조 가방·포션 칸 수와 잎 소비량·획득량이 바뀌는 특수한 코스튬입니다.** 이 효과는 해당 아티팩트를 가지고 있는 플레이어에게만 적용됩니다. 멀티플레이에서 호스트가 아닌 플레이어가 사용했을 때의 동작은 아직 검증되지 않았습니다. 문제를 발견하시면 제보해 주시면 감사하겠습니다.
-* MOD를 일시적으로 비활성화하려면 게임 내에서 `Esc` 키를 누른 후, ModMaker 정보 화면에서 해당 MOD를 OFF로 설정해 주세요.
-* 본 AddOn의 사용은 본인의 책임하에 이루어져야 합니다.
+- **멀티플레이에서는 전원이 같은 버전의 MOD를 설치하고 활성화해야 합니다.**
+- 잠시 끄려면 게임의 MOD 관리 화면을 이용해 주세요.
+- 게임 본편은 별도로 필요합니다.
 
 ## 감사의 말
 
-이 AddOn은 Xetsumei님이 개발하신 **Sephiria-ModMaker**를 이용하여 제작되었습니다.
-훌륭한 툴을 공개해 주신 Xetsumei님께 진심으로 감사드립니다!
+이 모드는 Xetsumei님의 **[Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker)**로 제작을 시작했습니다. 훌륭한 도구를 공개해 주셔서 진심으로 감사드립니다!
 
-## 피드백
+## 피드백 · 밸런스 조정
 
-버그 제보나 개선 사항, 또는 새로운 코스튬에 대한 제안이 있다면 언제든지 편하게 알려주세요!
+버그, 너무 강하거나 약한 점, 새 코스튬 아이디어 등 편하게 알려 주세요!
 
-* **GitHub Issue**: [여기](../../issues)에서 제보해 주세요.
-* **Discord DM**: `a_o_b`
+- [GitHub Issues](https://github.com/ao-408/Sephiria-ExtraCharacters/issues)
+- Discord DM: `a_o_b`
 
-보내주시는 모든 의견을 확인하고 있습니다. 감사합니다!
-
-## 밸런스 조정
-
-새로운 코스튬은 기존 코스튬과 최대한 비슷한 수준의 강함을 가지도록 조정하는 것을 목표로 하고 있습니다.
-
-너무 강하거나 약하다고 느껴지는 경우, [Issue](../../issues) 또는 Discord를 통해 자유롭게 의견을 보내주세요. 수치 조정에 참고하도록 하겠습니다.
+버그 제보 시 게임·MOD 버전, 재현 순서, 멀티플레이에서는 호스트·게스트 여부를 함께 알려 주시면 도움이 됩니다.
 
 ## 라이선스
 
-이 AddOn의 코드 및 설정 파일은 [MIT License](LICENSE)에 따라 공개됩니다.
-본 라이선스가 허용하는 범위 내에서 이용해 주세요.
+이 MOD의 코드와 설정 파일은 [MIT License](LICENSE)에 따라 공개됩니다.

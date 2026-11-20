@@ -1,83 +1,63 @@
 [日本語](README_ja.md) | **English** | [한국어](README_ko.md) | [中文](README_zh.md)
+
 # Sephiria-ExtraCharacters
 
-A mod that adds several new costumes for Sephiria.
-**More costumes are planned to be added in future updates.**
+**From v2.0.0 onward, the mod itself is available exclusively on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3843151213).**
 
-**For detailed costume stats and past patch history, please check the [Patchlog](Patchlog_en.md)!**
+Adds **six costumes** with unique effects and exclusive artifacts, plus **two weapons**, to Sephiria.
+More costumes are planned, with every animation completed before release!
 
-## Features
+Names, descriptions, and custom UI support Japanese, English, Korean, and Chinese. See the [patch notes](patchlog_en.md) for detailed effects, behavior changes, and fixes.
 
-* Adds new costumes to Sephiria
-* Each added costume comes with its own unique effects and artifacts
+## Characters
 
-## Added Characters
+### ![My Melody](images/Mymelody/Mymelody.png) My Melody
+### ![Kirby](images/Kirby/Kirby.png) Kirby
+### ![Tom Nook](images/TomNook/TomNook.png) Tom Nook
+### ![Sans](images/Sans/Sans.png) Sans
+### ![Crewmate](images/Crewmate/Crewmate.png) Crewmate 🆕
+### ![Dummy-chan](images/Dummy/Dummy.png) Dummy-chan
 
-The following 5 characters are currently available.
-For detailed stats on each character, please check in-game or the [Patchlog](https://github.com/ao-408/Sephiria-ExtraCharacters/blob/main/patchlog_en.md)!
+Open **Extra Characters →** in character selection to find the mod's characters.
 
-### ![Costume Preview](images/Mymelody/Mymelody.png) My Melody
+## Weapons
 
-### ![Costume Preview](images/Sans/Sans.png) Sans
-
-### ![Costume Preview](images/Kirby/Kirby.png) Kirby
-
-### ![Costume Preview](images/TomNook/TomNook.png) Tom Nook 🆕 **NEW!**
-
-### ![Costume Preview](images/Dummy/Dummy.png) Dummy-chan
+### ![Pocky](images/Pocky/Pocky.png) Pocky
+### ![Buster Sword](images/BusterSword/BusterSword.png) Buster Sword
 
 ## Installation
 
-### Which File Should You Download?
+**From v2.0.0, this is a standalone mod requiring no ModMaker Runtime. The mod itself is distributed through Steam Workshop.**
 
-This mod is distributed as two different ZIP files. Please download the one that matches your environment.
+1. Open this mod's Steam Workshop page and **subscribe**.
+2. Once downloaded, enable it in the game's Workshop panel.
+3. Restart the game, then open **Extra Characters →** in character selection.
 
-* **If you do not have ModMaker Runtime installed** → `ExtraCharactersMOD-x.x.x-withRuntime.zip` (includes ModMaker Runtime)
-  This ZIP includes the latest version of Runtime, so no extra setup is needed.
-* **If you already have ModMaker Runtime installed** → `ExtraCharactersMOD-x.x.x.zip` (does not include Runtime)
-  **Some versions of this AddOn may require an update to ModMaker Runtime itself.** If your Runtime is outdated, the AddOn may not work correctly. In that case, please install the version that includes Runtime (`-withRuntime.zip`), or update your Runtime to the latest version.
+### Updating from an older version
 
-### Installation Steps
+Back up your saves, then **disable the old ModMaker edition of ExtraCharactersMOD before enabling the Workshop edition**. Keep ModMaker Runtime if other AddOns need it.
 
-1. Download the appropriate ZIP file from [Releases](../../releases) according to the instructions above.
-2. Extract the ZIP file.
-3. Place the `AddOns` folder inside the extracted files at the same level as `Sephiria.exe`.
-
-   * If an `AddOns` folder already exists, **merge/overwrite its contents**. Do not replace the entire folder, as this may delete other AddOns. We recommend copying only the contents of the folder.
-4. Launch the game and check that the new costumes have been added.
+If you installed a development build in `WorkshopLocal`, disable it and switch to the subscribed edition as well. Multiplayer is unavailable while a `WorkshopLocal` mod is enabled.
 
 ## Notes
 
-* This AddOn only adds new costumes and does not affect existing costumes or normal gameplay in any way. (For example, some new costumes grant new artifacts, but these artifacts will not appear as rewards or in shops during normal gameplay.)
-* **This AddOn includes custom scripts (C# code) to implement the behavior of some artifacts.** These are loaded through ModMaker Runtime.
-* This AddOn does not contain any assets or data from the `Sephiria` game itself. Please obtain the game legally on your own.
-* This AddOn was created using [Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker/tree/main). Please use it in accordance with the terms of use and license of ModMaker itself.
-* **In multiplayer, all players must have the same MOD installed.** Playing with only some players having the MOD installed is not supported.
-* **"Tom Nook" is a special costume: its exclusive artifact "Tent / My Home" changes the number of bag, sub-bag, and potion slots, as well as how much Leaf you spend and gain.** These effects only apply to the player holding the artifact. Behavior when a non-host player uses it in multiplayer has not been tested yet. If you run into any issues, a report would be greatly appreciated.
-* If you want to temporarily disable the MOD, press `Esc` in-game and turn the MOD OFF from the ModMaker information screen.
-* Use this AddOn at your own risk.
+- **Everyone in multiplayer must install and enable the same version of this mod.**
+- Use the game's mod manager to disable it temporarily.
+- Sephiria must be obtained separately.
 
 ## Acknowledgements
 
-This AddOn was created using **Sephiria-ModMaker**, developed by Xetsumei.
-Many thanks to Xetsumei for creating and sharing such an excellent tool!
+This mod began with **[Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-ModMaker)** by Xetsumei. Thank you for sharing such a wonderful tool!
 
-## Feedback
+## Feedback and Balance
 
-If you have any bug reports, suggestions for improvements, or ideas for new costumes, we'd love to hear from you!
+Bug reports, balance feedback, and ideas for new costumes are welcome!
 
-* **GitHub Issue**: Please report them [here](../../issues)
-* **Discord DM**: `a_o_b`
+- [GitHub Issues](https://github.com/ao-408/Sephiria-ExtraCharacters/issues)
+- Discord DM: `a_o_b`
 
-We read every piece of feedback we receive. Thank you!
-
-## Balance Adjustments
-
-New costumes are balanced with the goal of keeping them roughly on par with the existing costumes.
-
-If you feel that a costume is too strong or too weak, please share your feedback through an [Issue](../../issues) or on Discord. Your feedback will be taken into consideration when adjusting the values.
+For bugs, please include your game and mod versions, reproduction steps, and whether you were the host or a guest in multiplayer.
 
 ## License
 
-The code and configuration files of this AddOn are released under the [MIT License](LICENSE).
-Please use them within the scope permitted by this license.
+The mod's code and configuration files are released under the [MIT License](LICENSE).
