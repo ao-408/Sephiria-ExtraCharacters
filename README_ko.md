@@ -2,6 +2,8 @@
 
 # Sephiria-ExtraCharacters
 
+최신 버전: **v2.0.1**
+
 **v2.0.0부터 MOD 본체는 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3843151213)에서만 배포합니다.**
 
 세피리아에 고유 효과와 전용 아티팩트를 가진 **코스튬 6종**과 **무기 2종**을 추가하는 모드입니다.

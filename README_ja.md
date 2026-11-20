@@ -2,6 +2,8 @@
 
 # Sephiria-ExtraCharacters
 
+最新バージョン: **v2.0.1**
+
 **v2.0.0から、MOD本体の配布は[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3843151213)のみになりました。**
 
 セフィリアに、独自の効果や専用アーティファクトを持つ**6体のコスチューム**と、**2種類の武器**を追加するMODです。

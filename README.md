@@ -2,6 +2,8 @@
 
 # Sephiria-ExtraCharacters
 
+Latest version: **v2.0.1**
+
 **From v2.0.0 onward, the mod itself is available exclusively on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3843151213).**
 
 Adds **six costumes** with unique effects and exclusive artifacts, plus **two weapons**, to Sephiria.

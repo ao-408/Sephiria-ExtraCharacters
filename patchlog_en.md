@@ -4,6 +4,16 @@
 
 **From v2.0.0 onward, the mod itself is available exclusively on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3843151213).** Nexus Mods and GitHub provide information and update news.
 
+## v2.0.1
+
+### Bug Fixes
+
+- **Crewmate**: Moved the description of the 60% damage penalty outside meetings and the vote/ejection damage exception from the central flavor text to the effect section below.
+
+### Other
+
+- **Crewmate**: Added the flavor text “...Did someone just hop into a vent?” Japanese, Korean, and Chinese translations are included.
+
 ## v2.0.0
 
 Crewmate joins the tower!

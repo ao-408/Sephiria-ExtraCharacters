@@ -2,6 +2,8 @@
 
 # Sephiria-ExtraCharacters
 
+最新版本: **v2.0.1**
+
 **从v2.0.0起，MOD本体仅通过[Steam创意工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3843151213)发布。**
 
 为塞菲莉娅添加拥有独特效果和专属神器的 **6套服装**与 **2种武器**的MOD。
