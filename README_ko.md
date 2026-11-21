@@ -2,7 +2,7 @@
 
 # Sephiria-ExtraCharacters
 
-최신 버전: **v2.0.1**
+최신 버전: **v2.0.2**
 
 **v2.0.0부터 MOD 본체는 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3843151213)에서만 배포합니다.**
 
@@ -55,7 +55,7 @@
 
 버그, 너무 강하거나 약한 점, 새 코스튬 아이디어 등 편하게 알려 주세요!
 
-- [GitHub Issues](https://github.com/ao-408/Sephiria-ExtraCharacters/issues)
+- [Steam Workshop 버그 제보 및 토론](https://steamcommunity.com/sharedfiles/filedetails/discussions/3843151213)
 - Discord DM: `a_o_b`
 
 버그 제보 시 게임·MOD 버전, 재현 순서, 멀티플레이에서는 호스트·게스트 여부를 함께 알려 주시면 도움이 됩니다.

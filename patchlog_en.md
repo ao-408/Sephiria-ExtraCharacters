@@ -4,6 +4,14 @@
 
 **From v2.0.0 onward, the mod itself is available exclusively on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3843151213).** Nexus Mods and GitHub provide information and update news.
 
+## v2.0.2
+
+### Bug Fixes
+
+- **Tent / My Home**: Fixed an issue that could stop expansion progress displays and automatic expansion from updating.
+- **Emergency Meeting Button**: Fixed an issue that prevented its cooldown from decreasing over time.
+- **Ability Star and other added artifacts**: Fixed disabled update routines that could prevent copied ability displays and available actions from refreshing.
+
 ## v2.0.1
 
 ### Bug Fixes

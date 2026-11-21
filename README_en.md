@@ -2,7 +2,7 @@
 
 # Sephiria-ExtraCharacters
 
-Latest version: **v2.0.1**
+Latest version: **v2.0.2**
 
 **From v2.0.0 onward, the mod itself is available exclusively on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3843151213).**
 
@@ -55,7 +55,7 @@ This mod began with **[Sephiria-ModMaker](https://github.com/Xetsumei/Sephiria-M
 
 Bug reports, balance feedback, and ideas for new costumes are welcome!
 
-- [GitHub Issues](https://github.com/ao-408/Sephiria-ExtraCharacters/issues)
+- [Bug reports and discussions on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/discussions/3843151213)
 - Discord DM: `a_o_b`
 
 For bugs, please include your game and mod versions, reproduction steps, and whether you were the host or a guest in multiplayer.

@@ -2,7 +2,7 @@
 
 # Sephiria-ExtraCharacters
 
-最新版本: **v2.0.1**
+最新版本: **v2.0.2**
 
 **从v2.0.0起，MOD本体仅通过[Steam创意工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3843151213)发布。**
 
@@ -55,7 +55,7 @@
 
 Bug、过强或过弱的体验、新服装建议，都欢迎反馈！
 
-- [GitHub Issues](https://github.com/ao-408/Sephiria-ExtraCharacters/issues)
+- [Steam Workshop 错误报告与讨论](https://steamcommunity.com/sharedfiles/filedetails/discussions/3843151213)
 - Discord DM：`a_o_b`
 
 报告Bug时，请附上游戏与MOD版本、复现步骤，以及多人游戏时是房主还是非房主。
